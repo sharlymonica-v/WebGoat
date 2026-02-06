@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/sharlymonica-v/WebGoat/WebGoat.git'
+                    url: 'https://github.com/sharlymonica-v/WebGoat.git'
             }
         }
 
